@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.4.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\OnionArchitecture.Application\OnionArchitecture.Application.csproj" />
+      <ProjectReference Include="..\..\OnionArchitecture.Infrastructure\OnionArchitecture.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
